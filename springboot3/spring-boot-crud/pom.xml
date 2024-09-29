@@ -3,8 +3,8 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>spring-boot-crud</artifactId>
-    <name>spring-boot-crud</name>
+    <artifactId>spring-boot-thymeleaf-crud</artifactId>
+    <name>spring-boot-thymeleaf-crud</name>
 
     <parent>
 		<groupId>org.thymeleaf.examples</groupId>
@@ -47,7 +47,7 @@
     </dependencies>
 
     <build>
-        <finalName>spring-boot-crud</finalName>
+        <finalName>spring-boot-thymeleaf-crud</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
