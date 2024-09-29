@@ -27,7 +27,7 @@
   <modelVersion>4.0.0</modelVersion>
   
   <groupId>org.thymeleaf.examples</groupId>
-  <artifactId>thymeleaf-examples</artifactId>
+  <artifactId>thymeleaf-examples-simple</artifactId>
   <version>3.1.2.RELEASE</version>
   <packaging>pom</packaging>
   <name>thymeleaf examples</name>
@@ -37,8 +37,8 @@
     <maven.compiler.source>${java.version}</maven.compiler.source>
     <maven.compiler.target>${java.version}</maven.compiler.target>
     <maven.compiler.release>${java.version}</maven.compiler.release>
-    <project.build.sourceEncoding>US-ASCII</project.build.sourceEncoding>
-    <project.build.propertiesEncoding>ISO-8859-1</project.build.propertiesEncoding>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.build.propertiesEncoding>UTF-8</project.build.propertiesEncoding>
     <resource.delimiter>@</resource.delimiter>
     <!-- These are needed for showing the build timestamp correctly at thymeleaf.properties.    -->
     <timestamp>${maven.build.timestamp}</timestamp>
