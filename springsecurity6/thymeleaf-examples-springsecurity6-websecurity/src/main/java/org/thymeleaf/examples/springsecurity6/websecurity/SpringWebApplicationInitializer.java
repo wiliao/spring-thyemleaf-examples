@@ -19,12 +19,11 @@
  */
 package org.thymeleaf.examples.springsecurity6.websecurity;
 
-import jakarta.servlet.Filter;
-
 import org.springframework.core.annotation.Order;
-import org.springframework.lang.NonNullApi;
 import org.springframework.web.filter.CharacterEncodingFilter;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
+
+import jakarta.servlet.Filter;
 
 
 @Order(1) // Filters declared at the Dispatcher initializer should be registered first

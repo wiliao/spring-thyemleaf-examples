@@ -31,7 +31,7 @@ import org.thymeleaf.examples.spring6.springmail.business.service.EmailService;
 @Controller
 public class MainController {
 
-    private static final String EDITABLE_TEMPLATE = "mail/editablehtml/email-editable.html";
+    //private static final String EDITABLE_TEMPLATE = "mail/editablehtml/email-editable.html";
 
     @Autowired
     private EmailService emailService;

@@ -61,7 +61,7 @@ public class BigListWebFluxAppConfig implements ApplicationContextAware {
             final Resource dbResource = this.applicationContext.getResource("classpath:data/chinook.sqlite");
             logger.debug("Database path: " + dbResource.getURL().getPath());
 
-            final DataSourceBuilder dataSourceBuilder = DataSourceBuilder.create();
+            final DataSourceBuilder<?> dataSourceBuilder = DataSourceBuilder.create();
             dataSourceBuilder.driverClassName("org.sqlite.JDBC");
             dataSourceBuilder.url("jdbc:sqlite:" + dbResource.getURL().getPath());
             return dataSourceBuilder.build();
